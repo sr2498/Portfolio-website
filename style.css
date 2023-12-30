@@ -48,6 +48,7 @@
 }
 
 .myInfo {
+  font-size: 16px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -55,29 +56,34 @@
 }
 
 .hello {
-  font-size: 65px;
+  font-size: 3em;
   font-family: "Roboto Slab", serif;
 }
 
 .name {
-  font-size: 50px;
+  font-size: 3em;
   font-weight: bold;
 }
 
 .about {
-  font-size: 40px;
+  font-size: 2.5em;
 }
 
 .moreabout {
-  font-size: 20px;
+  font-size: 2em;
   margin-top: 20px;
   font-family: "Roboto Slab", serif;
 }
 
+.buttons {
+  margin-top: 2em;
+  font-size: 16px;
+}
+
 .btn {
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: bold;
-  margin: 20px;
+  margin: 3px 5px;
   padding: 8px 14px;
   border-radius: 22px;
   color: white;
@@ -128,6 +134,10 @@
   padding: 3px;
 }
 
+.contactform form {
+  margin: 0 40px;
+}
+
 #emailHelp {
   font-size: 12px;
   color: midnightblue;
@@ -144,9 +154,13 @@
   margin: 3px 0;
 }
 
+.skillcontainer {
+  margin: 88px;
+}
+
 .mySkill {
-  padding: 12px;
-  margin-bottom: 20px;
+  padding: 10px;
+  margin: 88px;
 }
 
 .skillItem {
@@ -186,8 +200,19 @@
     position: absolute;
   }*/
   }
+  .buttons {
+    font-size: 6px;
+  }
+
+  .myInfo {
+    font-size: 10px;
+  }
 
   .myPic {
     display: none;
+  }
+
+  .intro, .contactform {
+    margin: 8px;
   }
 }
