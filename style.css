@@ -31,7 +31,8 @@
 }
 
 .main {
-  /* background-color: rgb(237, 209, 156); */
+  /*background-color: rgb(237, 209, 156);*/
+  margin: 98px;
   width: 90vw;
 }
 
@@ -43,13 +44,14 @@
   /* background-color: rgb(113, 250, 250); */
   height: 58vh;
   width: 80vw;
+  font-size: 40px;
   margin: 144px auto;
   display: flex;
   justify-content: space-around;
 }
 
 .myInfo {
-  font-size: 16px;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -93,7 +95,7 @@
 }
 
 .btn-sm {
-  font-size: 17px;
+  font-size: 20px;
   padding: 10px 19px;
   margin: 12px 0;
 }
@@ -111,15 +113,15 @@
 
 .contactform {
   font-family: "Roboto Slab", serif;
-  font-size: 18px;
-  padding: 0 34px;
-  padding-top: 65px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 90px;
   margin: 0 98px;
 }
 
 .contactform h1 {
   font-family: "Playfair Display", serif;
-  padding: 12px 0;
+  padding: 15px 0;
 }
 
 .contactform form div {
@@ -129,7 +131,7 @@
 }
 
 .contactform form div input {
-  width: 26vw;
+  width: 35vw;
   border-radius: 5px;
   margin: 6px 0 0 0;
   padding: 3px;
@@ -140,10 +142,11 @@
 }
 
 #emailHelp {
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: bold;
   color: midnightblue;
   margin: 0 8px;
-  padding: 3px 0 0 0;
+  padding: 5px 0 0 0;
 }
 
 #form-check {
@@ -156,25 +159,44 @@
 }
 
 .skillcontainer {
-  margin: 88px;
+  margin: 98px;
+  font-size: 25px;
 }
 
 .mySkill {
   padding: 10px;
-  margin: 88px;
+  margin: 98px;
 }
 
 .skillItem {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   margin: 20px 95px;
 }
 
 .skill {
-  width: 265px;
-  height: 6px;
+  width: 500px;
+  height: 10px;
   background-color: red;
   border: 2px solid black;
+}
+
+.svt5 {
+  width: 375px;
+  height: 10px;
+  background-color: orange
+}
+
+.fft {
+  width: 250px;
+  height: 10px;
+  background-color: yellow;
+}
+
+.t5 {
+  width: 125px;
+  height: 10px;
+  background-color: green;
 }
 
 .sidebarGo {
@@ -200,12 +222,11 @@
 }
 
 @media (max-width: 1450px) {
-  
-    /* .sidebar{
+  /* .sidebar{
     transform: translate(-443px, 0px);
     position: absolute;
   }*/
-  
+
   .buttons {
     font-size: 6px;
   }
@@ -218,7 +239,8 @@
     display: none;
   }
 
-  .intro, .contactform {
+  .intro,
+  .contactform {
     margin: 8px;
   }
 }
