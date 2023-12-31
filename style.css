@@ -103,8 +103,8 @@
 }
 
 .myPic img {
-  height: 58vh;
-  width: 25vw;
+  height: 55vh;
+  width: 20vw;
   border-radius: 45%;
 }
 
@@ -186,6 +186,11 @@
   cursor: pointer;
   top: 10px;
   left: 10px;
+}
+
+.hamburger img {
+  height: 45px;
+  width: 40px;
 }
 
 .cross {
