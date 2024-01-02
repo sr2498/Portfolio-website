@@ -42,7 +42,6 @@
 }
 
 .infoContainer {
-  /* background-color: rgb(113, 250, 250); */
   height: 58vh;
   width: 80vw;
   font-size: 40px;
@@ -54,7 +53,6 @@
 .myInfo {
   font-size: 28px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   font-family: "Playfair Display", serif;
 }
