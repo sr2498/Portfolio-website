@@ -44,7 +44,7 @@
 .infoContainer {
   height: 58vh;
   width: 80vw;
-  font-size: 40px;
+  font-size: 33px;
   margin: 144px auto;
   display: flex;
   justify-content: space-around;
@@ -73,13 +73,13 @@
 
 .moreabout {
   font-size: 2em;
-  margin-top: 20px;
+  margin-top: 25px;
   font-family: "Roboto Slab", serif;
 }
 
 .buttons {
   margin-top: 2em;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .btn {
@@ -177,26 +177,26 @@
 }
 
 .skill {
-  width: 500px;
+  width: 600px;
   height: 10px;
   background-color: red;
   border: 2px solid black;
 }
 
 .svt5 {
-  width: 375px;
+  width: 450px;
   height: 10px;
-  background-color: orange
+  background-color: yellow;
 }
 
 .fft {
-  width: 250px;
+  width: 300px;
   background-color: orange;
   height: 10px;
 }
 
 .t5 {
-  width: 125px;
+  width: 150px;
   height: 10px;
   background-color: green;
 }
