@@ -11,6 +11,7 @@
   background-color: rgb(182, 178, 178);
   height: 100vh;
   font-family: "Roboto Slab", serif;
+  font-weight: bold;
   transition: transform 0.3s ease-in;
 }
 
@@ -30,7 +31,8 @@
 }
 
 .main {
-  /*background-color: rgb(237, 209, 156); */
+  /*background-color: rgb(237, 209, 156);*/
+  margin: 98px;
   width: 90vw;
   margin: 90px;
 }
@@ -43,13 +45,14 @@
   /* background-color: rgb(113, 250, 250); */
   height: 58vh;
   width: 80vw;
+  font-size: 40px;
   margin: 144px auto;
   display: flex;
   justify-content: space-around;
 }
 
 .myInfo {
-  font-size: 16px;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -93,12 +96,12 @@
 }
 
 .btn-sm {
-  font-size: 17px;
+  font-size: 20px;
   padding: 10px 19px;
   margin: 12px 0;
 }
 
-.btn :hover {
+.btn:hover {
   color: dodgerblue;
   background-color: white;
 }
@@ -120,7 +123,7 @@
 
 .contactform h1 {
   font-family: "Playfair Display", serif;
-  padding: 12px 0;
+  padding: 15px 0;
 }
 
 .contactform form div {
@@ -131,9 +134,9 @@
 
 .contactform form div input {
   font-size: 22px;
-  width: 30vw;
   height: 2vh;
   border-radius: 6px;
+  width: 35vw;
   margin: 6px 0 0 0;
   padding: 3px;
 }
@@ -160,13 +163,13 @@
 }
 
 .skillcontainer {
-  margin: 88px;
   font-size: 28px;
+  margin: 98px;
 }
 
 .mySkill {
   padding: 10px;
-  margin: 88px;
+  margin: 98px;
 }
 
 .skillItem {
@@ -184,16 +187,19 @@
 
 .svt5 {
   width: 375px;
-  background-color: yellow;
+  height: 10px;
+  background-color: orange
 }
 
 .fft {
   width: 250px;
   background-color: orange;
+  height: 10px;
 }
 
 .t5 {
   width: 125px;
+  height: 10px;
   background-color: green;
 }
 
@@ -215,17 +221,16 @@
 }
 
 .cross {
-  margin: 155px;
-  margin-top: 2px;
+  margin: 140px;
+  margin-top: 1px;
 }
 
 @media (max-width: 1450px) {
-  * {
-    /* .sidebar{
+  /* .sidebar{
     transform: translate(-443px, 0px);
     position: absolute;
   }*/
-  }
+
   .buttons {
     font-size: 6px;
   }
@@ -238,7 +243,8 @@
     display: none;
   }
 
-  .intro, .contactform {
+  .intro,
+  .contactform {
     margin: 8px;
   }
 }
