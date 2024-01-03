@@ -8,7 +8,7 @@
 
 .sidebar {
   position: absolute;
-  background-color: rgb(182, 178, 178);
+  background-color: rgb(186, 132, 247);
   height: 100vh;
   font-family: "Roboto Slab", serif;
   font-weight: bold;
@@ -21,7 +21,7 @@
 
 .sidebar nav li {
   list-style: none;
-  font-size: 30px;
+  font-size: 35px;
   padding: 33px 0;
 }
 
@@ -44,14 +44,14 @@
 .infoContainer {
   height: 58vh;
   width: 80vw;
-  font-size: 33px;
+  font-size: 12px;
   margin: 144px auto;
   display: flex;
   justify-content: space-around;
 }
 
 .myInfo {
-  font-size: 28px;
+  font-size: 3em;
   display: flex;
   flex-direction: column;
   font-family: "Playfair Display", serif;
@@ -72,7 +72,7 @@
 }
 
 .moreabout {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-top: 25px;
   font-family: "Roboto Slab", serif;
 }
@@ -89,7 +89,7 @@
   padding: 8px 14px;
   border-radius: 22px;
   color: white;
-  background-color: dodgerblue;
+  background-color: rgb(186, 132, 247);
   cursor: pointer;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .btn:hover {
-  color: dodgerblue;
+  color: rgb(186, 132, 247);
   background-color: white;
 }
 
@@ -146,7 +146,7 @@
 #emailHelp {
   font-size: 20px;
   font-weight: bold;
-  color: midnightblue;
+  color: purple;
   margin: 0 10px;
   padding: 5px 0 0 0;
 }
@@ -161,11 +161,12 @@
 }
 
 .skillcontainer {
-  font-size: 28px;
+  font-size: 35px;
   margin: 98px;
 }
 
 .mySkill {
+  font-size: 2.5em;
   padding: 10px;
   margin: 98px;
 }
@@ -219,8 +220,27 @@
 }
 
 .cross {
-  margin: 140px;
+  margin: 150px;
   margin-top: 1px;
+}
+
+.projectContainer {
+  font-family: "Playfair Display", serif;
+  height: 58vh;
+  width: 80vw;
+  font-size: 12px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectInfo {
+  font-size: 2.9em;
+}
+
+.projectDetail{
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
 }
 
 @media (max-width: 1450px) {
