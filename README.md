@@ -33,3 +33,7 @@ To view my portfolio locally, follow these steps:
 I value your feedback! If you have any suggestions, questions or thoughts about my portfolio, don't hesitate to reach out. Your input is highly appreciated.
 
 Thank you for visiting my portfolio. I hope you enjoy exploring my work and learning more about my journey in the world of technology.
+
+## Screenshot
+
+![Alt text](<Screen Shot 2024-06-15 at 12.19.57 AM.png>)
