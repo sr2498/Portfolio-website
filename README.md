@@ -16,7 +16,7 @@ The home page greets you with a warm introduction, giving you a quick glimpse in
 Navigate to the "About" section for a deeper dive into my background, experiences and what motivates me in the tech world.
 
 ## Skills
-In the "skills" section, you will find a list of technical tools and languages I know. 
+In the "skills" section, you will find a list of technical tools and programming languages I know. 
 
 ## Projects
 Explore the "Projects" section to see cool stuff I've worked on. Each project comes with a short description and the tech I used.
