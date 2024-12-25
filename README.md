@@ -1,33 +1,28 @@
 # My Portfolio Website
 
-Welcome to my portfolio Website! This repository is a showcase of my skills, experiences and the projects I've had the pleasure of working on. Take a tour and learn more about who I am and what I bring to the table.
+Welcome to my portfolio website! This repository showcases my skills, experiences, and the projects I've worked on. Take a tour and get to know more about me and what I bring to the table.
 
 ## Table of Contents
-1. Introduction
-2. About Me
-3. Skills
-4. Projects
-5. Contact Me
+1. [Introduction](#introduction)
+2. [About Me](#about-me)
+3. [Skills](#skills)
+4. [Projects](#projects)
+5. [Contact Me](#contact-me)
 
 ## Introduction
-The home page greets you with a warm introduction, giving you a quick glimpse into my professional journey and passions. It's the perfect starting point to get to know me better.
+The home page offers a warm introduction, providing a quick glimpse into my professional journey and passions. It's the perfect starting point to learn more about me.
 
 ## About Me
-Navigate to the "About" section for a deeper dive into my background, experiences and what motivates me in the tech world.
+Visit the **About Me** section to dive deeper into my background, experiences, and motivations in the tech world.
 
 ## Skills
-In the "skills" section, you will find a list of technical tools and programming languages I know. 
+In the **Skills** section, you'll find a comprehensive list of the technical tools and programming languages I have expertise in.
 
 ## Projects
-Explore the "Projects" section to see cool stuff I've worked on. Each project comes with a short description and the tech I used.
+The **Projects** section showcases the exciting work I’ve done. Each project includes a brief description and the technologies used.
 
 ## Contact Me
-If you are interested in connecting or collaborating? The "Contact" section will take your few details and submit in database. Then I can contact you soon according to your query.
-
-## Get Started
-To view my portfolio locally, follow these steps:
-1. Clone my repository
-2. Open the "index.html" file in your preferred web browser.
+Interested in connecting or collaborating? Head to the **Contact Me** section, fill out the form, and submit your details. I’ll get back to you soon based on your query.
 
 ## Feedback
 I value your feedback! If you have any suggestions, questions or thoughts about my portfolio, don't hesitate to reach out. Your input is highly appreciated.
